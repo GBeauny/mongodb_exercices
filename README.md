@@ -23,3 +23,17 @@
   "restaurant_id": "30075445"
 }
 ```
+
+# Import the collection (documents) into a database called `ny`
+
+Note: Be sure to have created a DB called `ny` before
+
+``sh
+use ny
+```
+
+Now you can import your collection:
+
+```sh
+mongoimport --db ny --collection contacts --file restaurants.json
+```

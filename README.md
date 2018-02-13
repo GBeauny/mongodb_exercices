@@ -33,5 +33,5 @@ With mongo Shell:
 Create and import your collection into a new database called ny:
 
 ```sh
-$ mongoimport --db ny --collection contacts --file restaurants.json
+$ mongoimport --db ny --collection restaurants --file restaurants.json
 ```

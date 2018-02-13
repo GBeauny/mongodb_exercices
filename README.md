@@ -26,6 +26,22 @@
 
 # Import the collection (documents) into a database called `ny`
 
+Use Robot 3T to create and import the collection restaurants into the database ny or use the mongo shell.
+
+With mongo Shell:
+
+- Launch the mongo shell
+
+```sh
+$ mongo
+```
+
+- Show the dbs
+
+```sh
+$ show dbs
+```
+
 Note: Be sure to have created a DB called `ny` before
 
 ```sh

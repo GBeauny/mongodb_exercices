@@ -30,25 +30,7 @@ Use Robot 3T to create and import the collection restaurants into the database n
 
 With mongo Shell:
 
-- Launch the mongo shell
-
-```sh
-$ mongo
-```
-
-- Show the dbs
-
-```sh
-$ show dbs
-```
-
-Note: Be sure to have created a DB called `ny` before
-
-```sh
-$ use ny
-```
-
-Now you can import your collection:
+Create and import your collection into a new database called ny:
 
 ```sh
 $ mongoimport --db ny --collection contacts --file restaurants.json

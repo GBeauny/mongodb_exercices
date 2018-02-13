@@ -28,12 +28,12 @@
 
 Note: Be sure to have created a DB called `ny` before
 
-``sh
-use ny
+```sh
+$ use ny
 ```
 
 Now you can import your collection:
 
 ```sh
-mongoimport --db ny --collection contacts --file restaurants.json
+$ mongoimport --db ny --collection contacts --file restaurants.json
 ```
